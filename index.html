@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooter Portfolio</title>
+    <link rel="shortcut icon" href="./imgs/favicon.png" type="image/x-icon">
+
+    <!-- ICONS -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="././css/style.css">
+    <link rel="stylesheet" href="././css/image.css">
+    <link rel="stylesheet" href="././css/media.css">
+
+    <!-- JS -->
+    <script src="./js/script.js" defer></script> 
+</head>
+<body>
+    <!-- HEADER HTML -->
+    <header class="header">
+        <a href="./index.html" class="title">Shooter</a>
+
+        <!-- <a href="#" class="contact__btn">Contact</a> -->
+    </header>
+
+    <!-- HERO HTML -->
+    <section class="hero__section">
+        <div class="center">
+            <p>I'M A</p>
+            <h1>PHOTOGRAPHER</h1>
+        </div>
+    </section>
+
+    <!-- IMAGE GALLERY HTML -->
+    <section class="portfolio__gallery">
+        <div class="image__div">
+            <img src="./imgs/portfolio_gallery/image1.jpg">
+            <img src="./imgs/portfolio_gallery/image2.jpg">
+            <img src="./imgs/portfolio_gallery/image3.jpg">
+            <img src="./imgs/portfolio_gallery/image4.jpg">
+            <img src="./imgs/portfolio_gallery/image5.jpg">
+        </div>
+
+        <div class="image__div">
+            <img src="./imgs/portfolio_gallery/image6.jpg">
+            <img src="./imgs/portfolio_gallery/image7.jpg">
+            <img src="./imgs/portfolio_gallery/image8.jpg">
+            <img src="./imgs/portfolio_gallery/image9.jpg">
+            <img src="./imgs/portfolio_gallery/image10.jpg">
+        </div>
+
+        <div class="image__div">
+            <img src="./imgs/portfolio_gallery/image12.jpg">
+            <img src="./imgs/portfolio_gallery/image11.jpg">
+            <img src="./imgs/portfolio_gallery/image13.jpg">
+            <img src="./imgs/portfolio_gallery/image14.jpg">
+            <img src="./imgs/portfolio_gallery/image15.jpg">
+
+        </div>
+    </section>
+
+    <!-- ABOUT ME HTML -->
+     <section class="about">
+        <h2>About me</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic explicabo maiores earum iure sint, maxime consequuntur, nobis autem laborum in asperiores modi doloremque ex id aut necessitatibus dicta sed sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolore blanditiis sequi sapiente voluptatum exercitationem placeat iusto molestiae a magni.</p>
+     </section>
+
+    <!-- CONTACT FORM HTML -->
+    <div class="form__popup" id="myForm">
+        <h2>Work with me</h2>
+        <form action="https://formspree.io/f/mpzvolve" method="post" class="form__container">
+            <input type="text" name="name" id="name" placeholder="Full name" autocomplete="off" required><br>
+
+            <input type="email" name="email" id="email" placeholder="Email" autocomplete="off" required><br>
+
+            <input type="tel" name="number" id="number" placeholder="Phone number" maxlength="11" autocomplete="off" required><br>
+
+            <textarea name="message" id="msg" placeholder="Send me a message.." required></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <!-- CONTACT ICON HTML -->
+    <button class="contact__icon" onclick="popup()"><img src="./imgs/contact-icon.png" alt="contact icon"></button>
+
+    <!-- FOOTER HTML -->
+     <footer class="footer">
+        <div class="div">
+            <p>Copyright &copy 2024 Shooter. All rights reserved.</p>
+        </div>
+
+        <div class="socials">
+            <a href="#"><i class="ri-facebook-line"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-twitter-x-line"></i></a>
+            <a href="#"><i class="ri-tiktok-line"></i></a>
+        </div>
+     </footer>
+</body>
+</html>

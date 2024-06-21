@@ -1,0 +1,60 @@
+@import url(./style.css);
+
+
+/* IMAGE GALLERY RESPONSIVE CSS */
+@media screen and (max-width: 800px) {
+    .portfolio__gallery {
+      flex: 50%;
+      max-width: 100%;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .portfolio__gallery {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
+
+/* ABOUT RESPONSIVE CSS */
+@media screen and (max-width: 1000px) {
+  .about{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about{
+    width: 100%;
+    padding: 4rem 2rem;
+  }
+  .about p{
+    font-size: 1.2rem;
+  }
+}
+
+/* CONTACT FORM RESPONSIVE CSS */
+@media screen and (max-width: 400px) {
+  .form__popup {
+    width: 25rem;
+  }
+  .form__container input{
+    height: 2.5rem;
+  }
+  .form__container textarea{
+    height: 8rem;
+  }
+}
+
+/* FOOTER RESPONSIVE CS */
+@media screen and (max-width: 600px) {
+  .footer{
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 2rem 0;
+  }
+
+  .footer .socials{
+    margin-bottom: 1.5rem;
+  }
+}
