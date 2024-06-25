@@ -92,17 +92,22 @@ img{
 }
 
 /* IMAGE GALLERY CSS */
+.h2{
+    font-family: var(--font1);
+    font-size: 5rem;
+    text-align: center;
+    padding: 2.5rem 1.5rem 0;
+}
 .portfolio__gallery{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    flex-wrap: wrap;
     gap: 1.5rem;
-    padding: 1.5rem .5rem;
+    padding: 1.5rem 2.5rem;
 }
 
 .image__div{
-    flex: 25%;
-    max-width: 25%;
+    width: 100%;
     padding: 0 .5px;
 }
 
@@ -146,7 +151,7 @@ img{
     right: 2.5rem;
     padding: 1.5rem 2.5rem;
     border-radius: 5px;
-    border: 1.5px solid var(--color1);
+    /* border: 1.5px solid var(--color1); */
     background: var(--color3);
     box-shadow: 0 0 5px var(--color1);
     z-index: 100;

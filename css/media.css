@@ -4,16 +4,24 @@
 /* IMAGE GALLERY RESPONSIVE CSS */
 @media screen and (max-width: 800px) {
     .portfolio__gallery {
-      flex: 50%;
       max-width: 100%;
     }
 }
   
 @media screen and (max-width: 600px) {
     .portfolio__gallery {
-      flex: 100%;
       max-width: 100%;
     }
+}
+
+@media (max-width: 400px) {
+  .h2{
+    font-size: 4rem;
+  }
+  .portfolio__gallery {
+    max-width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 /* ABOUT RESPONSIVE CSS */
@@ -36,7 +44,7 @@
 /* CONTACT FORM RESPONSIVE CSS */
 @media screen and (max-width: 400px) {
   .form__popup {
-    width: 25rem;
+    width: 28rem;
   }
   .form__container input{
     height: 2.5rem;
